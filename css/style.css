@@ -101,6 +101,11 @@ body {
     height: 90px;
     border-radius: 2px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
 }
 .odd-cell {
     background-color: var(--grey);
@@ -113,4 +118,8 @@ body {
 }
 .even-cell:hover {
     background-color: var(--light-grey-hover);
+}
+
+.cell .markup {
+    font-size: 50px;
 }
