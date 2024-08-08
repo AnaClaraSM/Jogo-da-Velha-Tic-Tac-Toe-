@@ -55,12 +55,6 @@ body {
     justify-content: space-between;
     width: 100%;
 }
-.header h1 .title-x {
-    color: var(--red);
-}
-.header h1 .title-o {
-    color: var(--blue);
-}
 
 .buttons {
     display: flex;
@@ -104,8 +98,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
+    font-size: 50px;
 }
 .odd-cell {
     background-color: var(--grey);
@@ -120,6 +113,10 @@ body {
     background-color: var(--light-grey-hover);
 }
 
-.cell .markup {
-    font-size: 50px;
+/* X's and O's -> header, action phrase and cells */
+.X {
+    color: var(--red);
+}
+.O {
+    color: var(--blue);
 }
